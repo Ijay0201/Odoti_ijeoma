@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ee2b4b",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221013",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Luxe Nails | Elegant Nail Care</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Header / Navigation -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/10 px-6 md:px-20 py-4 bg-background-light/80 backdrop-blur-md sticky top-0 z-50">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-3xl">flare</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-bold leading-tight tracking-tight">Luxe Nails</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8 items-center">
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#services">Services</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#gallery">Gallery</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#testimonials">Reviews</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+<button class="flex min-w-[120px] cursor-pointer items-center justify-center rounded-full h-10 px-6 bg-primary text-white text-sm font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform">
+<span>Book Now</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col">
+<!-- Hero Section -->
+<section class="px-6 md:px-20 py-12 md:py-20">
+<div class="flex flex-col gap-10 lg:flex-row items-center">
+<div class="flex flex-col gap-8 lg:w-1/2">
+<div class="flex flex-col gap-4">
+<span class="text-primary font-bold tracking-widest text-sm uppercase">Premium Nail Studio</span>
+<h1 class="text-slate-900 dark:text-slate-100 text-5xl md:text-7xl font-black leading-tight tracking-tight">
+                                Elevate Your Elegance at Luxe Nails
+                            </h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-lg leading-relaxed">
+                                Experience the ultimate in luxury nail care with our expert technicians in a serene, warm environment designed for your relaxation.
+                            </p>
+</div>
+<div class="flex gap-4">
+<button class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-lg font-bold shadow-xl shadow-primary/30 hover:bg-primary/90 transition-all">
+<span>Book Appointment</span>
+</button>
+<button class="flex items-center justify-center rounded-xl h-14 px-8 border-2 border-primary text-primary text-lg font-bold hover:bg-primary/5 transition-all">
+<span>View Menu</span>
+</button>
+</div>
+</div>
+<div class="lg:w-1/2 w-full">
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary/10 rounded-3xl blur-2xl group-hover:bg-primary/20 transition-all duration-500"></div>
+<div class="relative w-full aspect-[4/3] bg-center bg-no-repeat bg-cover rounded-3xl shadow-2xl overflow-hidden" data-alt="Close up of elegant minimalist nail art design" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAH_4n9VpppXKMlLM3kpWjyQbFEuSzB0iEP2215K8Wog1e6XAMnle-eUTUcGzhfgF5aFBImpaPJ8u8Dr0qyDD_EAtfK7UCc6_wF6A4kfjxngvaCVhgBTfaKAvr2cmgFt2H3A2yG36_8L8VGzn_i_YL8kovKqn5mRq04NQGoUp6_8RWz6wPMfv3l4EBnCeVteoUFx7YeRJ-hvbZqOn3ABWB13XnqMkd0INwJK68K6h7GYKAzoW7zs2mza8YyqMXHVVSUlVXa1JHaQcw");'>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="px-6 md:px-20 py-20 bg-primary/5" id="services">
+<div class="text-center mb-16">
+<h2 class="text-slate-900 dark:text-slate-100 text-4xl font-bold mb-4">Our Services</h2>
+<div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="flex flex-col gap-5 p-8 bg-background-light dark:bg-background-dark rounded-2xl shadow-sm border border-primary/5 hover:border-primary/20 transition-all group">
+<div class="w-full aspect-video bg-center bg-no-repeat bg-cover rounded-xl mb-2" data-alt="Woman receiving professional classic manicure treatment" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYgPkw8dz76mS9bTVmjqe9zt9WKlj1Dm5UZMeYPXJHB9CT-6mwGFbEzwCrVlmJxzdLZcUsjbwk0NpOtBVy_Nbdbyfm-bWuu39z8FJodv1FUytl03_8tiDOZFqckGkcEQZzgqFToo-Gn3mNGQzzYUezmSwf50fz_f0ZOdRkWThkJZEiCg-GVqE3At7wNSOtvOsL7CvlbxPBFFCZl3VatSCaINLVVOtQuo_o1cyl6XvjE8H0DZpc96pXfnzKSpeZ3VMsX2mUpudpztU");'></div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-slate-100">Classic Manicures</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">Precision shaping, cuticle care, and a flawless polish application for a timeless, professional look.</p>
+<span class="text-primary font-bold group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">From $35 <span class="material-symbols-outlined">arrow_right_alt</span></span>
+</div>
+<div class="flex flex-col gap-5 p-8 bg-background-light dark:bg-background-dark rounded-2xl shadow-sm border border-primary/5 hover:border-primary/20 transition-all group">
+<div class="w-full aspect-video bg-center bg-no-repeat bg-cover rounded-xl mb-2" data-alt="Relaxing deluxe pedicure soak with rose petals" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBfdXf5pKNiOjLpicM38paDUmcZB91D9pad4R2kUVdZEUcpl4oXJXYmwDJdONtt_rdDZsRNhM_613cnTAxHAgUA9bcqlyQ0pAqPLT1AC8quaxnhZUNa6R3wW0OkT1evgoX1a2L3Mv0mRi5laGbw-J6SLlGbWvGL1SmkfDjtLMaQWSTKLfd4iIWNVldiLa6SCbmouxBIXdzVtUj-WGpAbhKhYQCqTjYKTDsUtCW8FvbYPQcGxz7gJXuKLFfCSiUcQtWOmdZpqW43Fk4");'></div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-slate-100">Deluxe Pedicures</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">Revitalizing soak, exfoliating scrub, and a soothing massage to refresh and beautify your feet.</p>
+<span class="text-primary font-bold group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">From $55 <span class="material-symbols-outlined">arrow_right_alt</span></span>
+</div>
+<div class="flex flex-col gap-5 p-8 bg-background-light dark:bg-background-dark rounded-2xl shadow-sm border border-primary/5 hover:border-primary/20 transition-all group">
+<div class="w-full aspect-video bg-center bg-no-repeat bg-cover rounded-xl mb-2" data-alt="Detailed gel nail extensions with artistic design" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCaXAZGnQ8IEN4O9wfrf6bodhrlxz1JGRIngGfVBKNBDFFFvw4med-bfPafvIEepeKhHzuL0cGBE2phRf_6fAg9L-KteKHsJ1HF4U2O_n69Emy7SusccgZYoiFscb0jRJ3Oyt55VAKpGlVKZdv0aGEM-Jg_7ogRzb3cT76GdkI2RjMtli3eQWVEJblKdtIAw_rJcSkSUFPB9lYS5qArClegPvfFQ15GInzOBNNp1DtYZBeety8F_LmCk_rgupHAS9V2NeigISsFjGc");'></div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-slate-100">Gel Extensions</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">Durable, high-shine enhancements tailored to your preferred length and shape for lasting beauty.</p>
+<span class="text-primary font-bold group-hover:translate-x-2 transition-transform inline-flex items-center gap-2">From $75 <span class="material-symbols-outlined">arrow_right_alt</span></span>
+</div>
+</div>
+</section>
+<!-- Gallery Section -->
+<section class="px-6 md:px-20 py-20" id="gallery">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="text-slate-900 dark:text-slate-100 text-4xl font-bold mb-2">Portfolio Gallery</h2>
+<p class="text-slate-600 dark:text-slate-400">Discover our latest artistic creations</p>
+</div>
+<a class="text-primary font-bold hover:underline" href="#">View All Designs</a>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="aspect-square rounded-xl overflow-hidden shadow-lg group">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Nail art with intricate floral patterns" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKX_y3uglmPgArtpEfgbFAlGck2byVH4DUevsUT2aaZtGFKVe5W8E5X6flvtPHOL04VtZJklL4xLFeZ4Fg3QKvuZAATG6ZXARTYGYydnQM9ratwLmYMOHaaIXdqHA9IxUUtHgdI_IN5kHobUDuzKadVu6iEae6UKC2Q_RcdJFbjyC_SuPEneI2WtmwXzNGwc1Ibh0isbs2eCxdFJtEBnd7ua4eLu6RZot2gS-nCPndpVttoEbGzI7JvcRQvUcxuBPK6tqqS_lYuH0");'></div>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden shadow-lg group">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Elegant french manicure with gold accents" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAeM6woyacY1fei9Tlz1faoMMvs_QIMBSjYS1izNk8QVZ1eIJ3dCARUwgeQdChPWKHV5pKf1_0gtILnPJNleKYMoQ5nN6T3xSSHvSR41DCtvzllzA2FhbL_25psTKLNrD3NLlNgwPchwpHMAaKIkvcg7-S0yrxJB785CC0SBgQD7Vzhfdf8UCB-DKcxpWvGmHfYgMXMP0DTFt-8AlEnu-7gi2Ab7-8SjaPnEoRLfiTYGOlWbSBkDp1PwGFjS1ggd_U1zUZouNsBlz8");'></div>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden shadow-lg group">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Modern geometric nail art in pastel colors" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDhr15M-xGetqhLFj5B_A87BCr9RICLif4LTDwl4hIQnm5cF57v6a3zmW0VuXXGirif0RL73xWB5rPpBXcZPGqda901efD1Kt-WSHkw3ZC59z15x13aZKvRL5sZCgKX4Lt19eJ07-kCFGkC7eSjweYR138yL59o9U5Pw1SUiz6TgDwcba8sNQfsBDAM5RXoGfn8eV6ckzX5fi8ro5e5VNauEVnidPFkgwXvVnf7gOYFYNYRXg7rQ92ysYOVE6P2GsQDZQ1pN1lDzdc");'></div>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden shadow-lg group">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Long almond shaped nails with marble effect" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD_E0jhu2RinYclhK-13lbF0ARxTzK7zIlszbZbfoMPv9fslG5ZXlm_3GTq_trgjj8aWTPFmHKa6YbVES-IVPZXimQUJq8B6ecWy9aYGLExFLPzMc8WQiN5GKaHmKk_Tb4FW0aOHhcM9P2BryxV_ADMQCq7LlEaSm0Nm92YK_oxaKO3Ojy9k_W_ygm4m4buBGYRI8o8zCrbINEAS4XtTjJOtwg_iBxy5ieC9bO6UI2MFR3YBJMTzMqJu6XPJyoRmtmdX01Md7PhAPc");'></div>
+</div>
+</div>
+</section>
+<!-- Testimonials Section -->
+<section class="px-6 md:px-20 py-20 bg-background-dark text-white rounded-[2.5rem] mx-6 mb-20" id="testimonials">
+<div class="max-w-4xl mx-auto text-center">
+<span class="material-symbols-outlined text-primary text-6xl mb-8">format_quote</span>
+<h2 class="text-3xl md:text-4xl font-bold mb-12">What Our Clients Say</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-left">
+<div class="flex flex-col gap-4">
+<div class="flex gap-1 text-yellow-400">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="text-lg italic text-slate-300">"The best nail experience I've ever had. The attention to detail and the relaxing atmosphere are unmatched. My gel extensions lasted for weeks!"</p>
+<div class="font-bold text-primary">— Sarah Johnson</div>
+</div>
+<div class="flex flex-col gap-4">
+<div class="flex gap-1 text-yellow-400">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="text-lg italic text-slate-300">"Luxe Nails is my go-to spot for pedicures. They truly treat you like royalty here. The staff is so professional and kind."</p>
+<div class="font-bold text-primary">— Emily Davis</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="px-6 md:px-20 py-16 border-t border-primary/10" id="contact">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-3xl">flare</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-bold leading-tight">Luxe Nails</h2>
+</div>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                        Dedicated to providing the most elegant and luxurious nail services in the city. Your beauty is our passion.
+                    </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">camera</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">mail</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-slate-100 mb-6">Quick Links</h4>
+<ul class="flex flex-col gap-4 text-slate-600 dark:text-slate-400 text-sm">
+<li><a class="hover:text-primary" href="#">About Us</a></li>
+<li><a class="hover:text-primary" href="#">Services</a></li>
+<li><a class="hover:text-primary" href="#">Gallery</a></li>
+<li><a class="hover:text-primary" href="#">Gift Cards</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-slate-100 mb-6">Opening Hours</h4>
+<ul class="flex flex-col gap-4 text-slate-600 dark:text-slate-400 text-sm">
+<li class="flex justify-between"><span>Mon - Fri</span><span>9:00 - 20:00</span></li>
+<li class="flex justify-between"><span>Saturday</span><span>10:00 - 18:00</span></li>
+<li class="flex justify-between font-bold text-primary"><span>Sunday</span><span>Closed</span></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-slate-100 mb-6">Location</h4>
+<div class="flex flex-col gap-4 text-slate-600 dark:text-slate-400 text-sm">
+<div class="flex gap-3">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<p style="color: rgb(146, 146, 219);">123 Luxury Lane, Suite 456<br/>Beverly Hills, CA 90210</p>
+</div>
+<div class="flex gap-3">
+<span class="material-symbols-outlined text-primary">call</span>
+<p>(555) 123-4567</p>
+</div>
+</div>
+<div class="mt-6 w-full h-32 rounded-lg bg-slate-200 overflow-hidden relative" data-location="Beverly Hills" style="">
+<div class="absolute inset-0 bg-primary/5"></div>
+<img class="w-full h-full object-cover opacity-50 grayscale" data-alt="Stylized map showing shop location" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmqyW-k_e31kQbNZonpYhuBvZih5tSPR60jfivHH02u4dfa0E6h0QkQk58LcFEGLawKLGx6nY9ds7jgERc7fuE_kiOaqBtJK1Lmnmd4k140nZvIqTa21jGzkQlDxaHsFqJSLJaPlp9nWRToZqhOfaHYDV1gNxdCb3od2WPdq4xhgQYZlDdaC7OcV3WAM9M_DTBsN9ltpfKfItAqqpKcQEC7Hb9262FesMUlbBjWyI1defYTqxp5FED7v6ZgTvbIYjTDlLYtdHVg8Q"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">push_pin</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-16 pt-8 border-t border-primary/10 text-center text-sm text-slate-500 dark:text-slate-400">
+<p>© 2024 Luxe Nails. All rights reserved. Designed with elegance.</p>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
