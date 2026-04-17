@@ -4,18 +4,20 @@
 }
 
 .main{
-    width: 100vh;
-    background: linear-gradient(to-top), url("1.png");
-    background-color: rgb(120, 120, 123);
+    width: 100vw;
+    background: linear-gradient(to-top);
+    background-image: url("1.png");
+    /* background-color: rgb(120, 120, 123); */
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 100vh;
+
 }
 
 .navbar{
-    width: 120px;
-    height: 75px;
-    margin: auto;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
 }
 
 .icon{
@@ -25,7 +27,7 @@
 }
 
 .logo{
-    color:rgb(63, 63, 66);
+    color:rgb(204, 82, 11);
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -34,13 +36,12 @@
 }
 
 .menu{
-    width: 400px;
-    float: left;
-    height: 70px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
 }
 
 ul{
-    float: left;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +50,7 @@ ul{
 ul li{
     list-style: none;
     margin-left:62px;
-    margin-top: 27px;
+    /* margin-top: 27px; */
     font-size: 14px;
 }
 
@@ -66,9 +67,7 @@ ul li a:hover{
 } 
 
 .search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
+    display: flex;
 }
 
 .srch{
@@ -77,11 +76,11 @@ ul li a:hover{
     height: 40px;
     background: transpa;
     border: solid rgb(63, 63, 66);
-    margin-top: 13px;
+    /* margin-top: 13px; */
     color: white;
     border-right: none;
     font-size: 16px;
-    float: left;
+    /* float: left; */
     padding: 10px;
     border-top-left-radius: 5px;
     border-top-left-radius: 5px;
@@ -92,7 +91,7 @@ ul li a:hover{
     height: 40px;
     background:  rgb(63, 63, 66);
     border: 2px solid  rgb(63, 63, 66);
-    margin-top: 13px;
+    /* margin-top: 13px; */
     color:aliceblue;
     font-size: 15px;
     border-bottom-right-radius: 5px;
