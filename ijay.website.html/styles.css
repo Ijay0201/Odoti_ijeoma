@@ -3,6 +3,9 @@
     padding: o;
 }
 
+*{
+    font-family: "Nunito", sans-serif !important;
+}
 .main{
     width: 100vw;
     background: linear-gradient(to-top, black 50%, black 50%,);
@@ -29,7 +32,7 @@
 .logo{
     color:rgb(204, 82, 11);
     font-size: 35px;
-    font-family: Arial;
+    
     padding-left: 20px;
     float: left;
     padding-top: 10px;
@@ -58,7 +61,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: white;
-    font-family: arial;
+    
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
@@ -118,7 +121,7 @@ ul li a:hover{
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
-    font-family: Arial;
+    
     letter-spacing: 1.2px;
     line-height: 30px;
 }
@@ -172,7 +175,7 @@ font-size: 60px;
 
 .form h2{
     width: 220px;
-    font-family: sans-serif;
+    
     text-align: center;
     color: rgb(204, 82, 11);
     font-size: 22px;
@@ -194,7 +197,7 @@ font-size: 60px;
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
-    font-family: sans-serif;
+    
 }
 
 .form input:focus{
@@ -203,7 +206,7 @@ font-size: 60px;
 
 ::placeholder{
     color: white;
-    font-family: arial;
+    
 }
 
 .btnn{
@@ -231,7 +234,7 @@ font-size: 60px;
 }
 
 .form .link{
-font-family: Arial;
+
 font-size: 17px;
 padding-top: 20px;
 text-align: center;
