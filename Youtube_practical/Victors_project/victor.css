@@ -1,0 +1,132 @@
+/* input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ border: 0;
+} */
+
+body{
+    background-color: rgb(233, 236, 249);
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
+    width: 50%;
+    height: 100vh;
+    margin: 20px
+} 
+
+*{
+    margin: 4px;
+    padding: 0;
+    
+}
+     
+    h1{
+        color:blue;
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    img{
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    .first-button{
+  width: 100%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #fafafc;
+  border-color: rgb(198, 195, 195);
+  min-width: 300px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  border: 3px;
+  cursor: pointer;
+    }
+
+    .first-span{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: grey;
+    }
+
+ .inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+ }
+ 
+ input {
+  background-color: #ffffff;
+  border: 1px solid #cdcdce;
+  border-radius: 10px;
+  color: #000000;
+  padding: 8px;
+}
+
+.second-button{
+  width: 20%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.1rem;
+  background-color: #9d9dff;
+  min-width: 400px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  border: none;url(https://www.svgrepo.com/show/527702/eye.svg)
+    }
+
+  input
+ {
+  /* margin: 10px 0 0 0; */
+  /* width: ; */
+  min-height: 2em;
+ }
+
+ .form-row{
+    display:flex;
+    column-gap: 10px;
+    margin-bottom: 20px;
+ }
+
+ .form-row div{
+     position: relative;
+    
+ }
+
+ .form-row label{
+    width: 500px
+ }
+
+ .absolute{
+    position: absolute;
+    right: 8px;
+    bottom: 12px;
+ }
+
+ .inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  display: flex;
+ }
