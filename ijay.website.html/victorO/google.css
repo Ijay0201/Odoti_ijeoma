@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #dddddd;
+    font-family: Arial, sans-serif;
+    
+}
+
+.google{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+
+}
+
+.G{
+    color: #4285F4;
+}
+.o{
+    color: #34A853;
+}
+.g{
+    color: #EA4335;
+}
+.l{
+    color: #FBBC05;
+}
+.e{
+    color: #4285F4;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 5%;
+    border-radius: 50px;
+    border: 1px solid #cccccc;
+    padding-left: 80px;
+}
+
+.input div{
+    position: relative;
+}
+
+    .search-icon{
+        position: absolute;
+        left: 75px;
+        top: 90px;
+        width: 20px;
+        height: 20px;
+}
+    .mic-icon{
+        position: absolute;
+        right: 300px;
+        top: 90px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .camera-icon{
+        position: absolute;
+        right: 255px;
+        top: 90px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .search-icon2{
+        position: absolute;
+        right: 65px;
+        top: 7px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .ai-mode-button{
+        position: absolute;
+        right: 120px;
+        top: 86px;
+        width: 90px;
+        height: 28px;
+        background-color: #dbe6f7;
+        color: rgb(5, 5, 5);
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        padding-left: 25px;
+        padding-right: 10px;
+    }

@@ -93,7 +93,8 @@ body{
   min-width: 400px;
   border-radius: 15px;
   color: rgb(255, 255, 255);
-  border: none;url(https://www.svgrepo.com/show/527702/eye.svg)
+  border: none;
+  /* url(https://www.svgrepo.com/show/527702/eye.svg) */
     }
 
   input

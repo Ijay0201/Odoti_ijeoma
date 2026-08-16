@@ -1,0 +1,61 @@
+body{
+  width: 100%;
+  /* margin: 20px */
+
+}
+  
+  .feature-card-container{
+    text-align: center;
+    margin-left: 15%;
+  }
+
+  h1{
+  text-align: center;
+}
+
+.border{
+  border: 2px solid grey;
+  width: 40%;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  
+}
+
+.border:hover{
+    border-color:rgb(199, 199, 74);
+    box-shadow: 0 4px 12px rgba(255, 201, 53, 0.6);
+}
+
+
+.first-second-container{
+  display:flex;
+  padding: 10px;
+  gap: 10px;
+ 
+}
+
+.third-fourth-container{
+  display: flex;
+   padding: 10px;
+  gap: 10px;
+}
+
+.fifth-sixth-container{
+  display: flex;
+   padding: 10px;
+  gap: 10px;
+}
+
+/* .checkbox{
+    color: grey;
+    position: relative;
+    right: 80px;
+    top: 12px;
+} */
+
+.border input[type="checkbox"]{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
